@@ -16,6 +16,7 @@ Your server should reboot itself after `run one`
 
 ## 2: SSH into your server for the second time and run the following commands
 ```
+cd Azure-Ethereum-mine/
 sudo ./run_two.sh
 ```
 *Just hit 'Yes' or 'Y' every time you are prompted*
@@ -26,6 +27,7 @@ Again, after `run two` your server should reboot itself.
 
 ## 3: SSH into your server for the third time and run the following commands
 ```
+cd Azure-Ethereum-mine/
 sudo ./run_three.sh
 screen
 ethminer -G -F http://eth.pool.minergate.com:55751/<YOUREMAIL> --disable-submit-hashrate
