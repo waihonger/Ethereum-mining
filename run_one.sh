@@ -9,5 +9,5 @@ sudo apt-get dist-upgrade -y
 sudo apt-get install build-essential ubuntu-desktop -y
 sudo touch /etc/modprobe.d/nouveau.conf
 sudo chmod 775 /etc/modprobe.d/nouveau.conf
-sudo echo "blacklist nouveau\nblacklist lbm-nouveau" > /etc/modprobe.d/nouveau.conf
+sudo echo $'blacklist nouveau\nblacklist lbm-nouveau' > /etc/modprobe.d/nouveau.conf
 sudo reboot
