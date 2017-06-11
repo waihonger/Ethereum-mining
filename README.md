@@ -39,3 +39,10 @@ You can now terminate your SSH session and your server should be mining in the b
 ssh <username>@<server ip address>
 ```
 *remember your password if you are not using SSH keys!*
+
+
+### References
+
+* https://docs.microsoft.com/en-us/azure/virtual-machines/linux/n-series-driver-setup#install-grid-drivers-for-nv-vms
+* https://medium.com/azure-developers/mining-ethereum-with-azure-n-series-gpu-virtual-machines-81248b6f89ec
+* https://medium.com/azure-developers/mining-bitcoin-other-altcoins-with-azure-n-series-gpu-virtual-machines-e8591895baba
