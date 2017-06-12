@@ -3,7 +3,11 @@ https://bitcointalk.org/index.php?topic=1433925.0
 
 1. Download the file
 ` wget https://www.dropbox.com/s/r5mn00lngbwipvo/Claymore%27s%20Dual%20Ethereum%2BDecred_Siacoin_Lbry_Pascal%20AMD%2BNVIDIA%20GPU%20Miner%20v9.5%20-%20LINUX.tar.gz?dl=1`
+
 2. Extract the tar file
+```
+tar -xvzf Claymore%27s%20Dual%20Ethereum%2BDecred_Siacoin_Lbry_Pascal%20AMD%2BNVIDIA%20GPU%20Miner%20v9.5%20-%20LINUX.tar.gz?dl=1
+```
 
 3. Set environment variables
 ```
