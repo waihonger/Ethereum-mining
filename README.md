@@ -3,8 +3,8 @@ A shell script to mine Ethereum on Microsoft Azure
 
 ## 1: SSH into your server for the first time and run the following commands
 ```
-git clone https://github.com/joshteng/Azure-Ethereum-mine
-cd Azure-Ethereum-mine/
+git clone https://github.com/joshteng/Ethereum-mine
+cd Ethereum-mine/
 chmod +x run_one.sh
 chmod +x run_two.sh
 chmod +x run_three.sh
@@ -16,7 +16,7 @@ Your server should reboot itself after `run one`
 
 ## 2: SSH into your server for the second time and run the following commands
 ```
-cd Azure-Ethereum-mine/
+cd Ethereum-mine/
 sudo ./run_two.sh
 ```
 *Just hit 'Yes' or 'Y' every time you are prompted*
@@ -27,7 +27,7 @@ Again, after `run two` your server should reboot itself.
 
 ## 3: SSH into your server for the third time and run the following commands
 ```
-cd Azure-Ethereum-mine/
+cd Ethereum-mine/
 sudo ./run_three.sh
 screen
 ethminer -G -F http://eth.pool.minergate.com:55751/<YOUREMAIL> --disable-submit-hashrate
