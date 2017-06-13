@@ -37,8 +37,13 @@ chmod +x start.bash
 ./start.bash
 
 screen
-Mine CPU with : 
-ethminer -C -F http://eth.pool.minergate.com:55751/onesaviour@gmail.com -t 5 --disable-submit-hashrate
+sudo apt-get install python-twisted
+git clone https://github.com/waihonger/eth-proxy.git
+cd eth-proxy
+python ./eth-proxy.py
+
+screen
+ethminer --farm-recheck 200 -C -F http://127.0.0.1:8080/DD-CPU-NC06-03 -t 5
 
 ```
 
