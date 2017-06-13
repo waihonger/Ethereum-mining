@@ -33,6 +33,8 @@ sudo ./run_three.sh
 screen
 vim ./start.bash 
 Replace XX in DigDug-NC06-XX
+chmod +x start.bash
+./start.bash
 
 screen
 Mine CPU with : 
