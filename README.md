@@ -3,7 +3,7 @@ A shell script to mine Ethereum on Microsoft Azure
 
 ## 1: SSH into your server for the first time and run the following commands
 ```
-git clone https://github.com/joshteng/Ethereum-mining
+git clone https://github.com/waihonger/Ethereum-mining
 cd Ethereum-mining
 chmod +x run_one.sh
 chmod +x run_two.sh
