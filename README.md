@@ -31,9 +31,8 @@ cd Ethereum-mining
 sudo ./run_three.sh
 
 screen
-vim ./start.bash in Claymore Folder 
-Add 
-./ethdcrminer64 -epool us1.ethermine.org:4444 -ewal 0xAE21a7ffb9949D353aAFa99c5d0d9DBDa0DEB446.DigDug-NC06-XX -epsw x"
+vim ./start.bash 
+Replace XX in DigDug-NC06-XX
 
 screen
 Mine CPU with : 
