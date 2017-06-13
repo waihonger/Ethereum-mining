@@ -3,7 +3,6 @@ sudo apt-get update
 sudo apt-get install software-properties-common gcc make
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
-sudo apt-get install linux-image-extra-virtual
 
 sudo apt-get install build-essential ubuntu-desktop -y
 sudo touch /etc/modprobe.d/nouveau.conf
@@ -12,14 +11,11 @@ sudo echo $'blacklist nouveau\nblacklist lbm-nouveau' > /etc/modprobe.d/nouveau.
 
 sudo reboot
 
-sudo systemctl stop lightdm.service
+sudo apt-get install linux-image-extra-virtual linux-source linux-headers-`uname -r`
+sudo systemctl stop lightdm.service # sudo service lightdm stop
 wget -O NVIDIA-Linux-x86_64-367.92-grid.run https://go.microsoft.com/fwlink/?linkid=849941  
 chmod +x NVIDIA-Linux-x86_64-367.92-grid.run
 sudo ./NVIDIA-Linux-x86_64-367.92-grid.run
-
-sudo echo $'\nIgnoreSP=TRUE\n' >> /etc/nvidia/gridd.conf.template
-
-sudo reboot
 
 sudo add-apt-repository ppa:ethereum/ethereum
 sudo apt-get update
