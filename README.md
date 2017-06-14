@@ -45,6 +45,9 @@ python ./eth-proxy.py
 screen
 ethminer --farm-recheck 200 -C -F http://127.0.0.1:8080/DD-CPU-NC06-03 -t 5
 
+screen
+ethminer --farm-recheck 200 -G -F http://127.0.0.1:8080/DD-NC06-03
+
 ```
 
 You can now terminate your SSH session and your server should be mining in the background
