@@ -50,6 +50,9 @@ ethminer --farm-recheck 200 -G -F http://127.0.0.1:8080/DD-NC06-03
 
 ```
 
+Configure scripts to run automatically
+
+
 You can now terminate your SSH session and your server should be mining in the background
 
 
